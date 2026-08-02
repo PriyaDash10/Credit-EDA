@@ -40,14 +40,27 @@ The analysis identified patterns in customer income, age, employment, loan amoun
 
 The project uses application and previous-application financial datasets containing customer demographic, income, credit, loan, and repayment-related information.
 
+Due to the large size of the datasets, the raw CSV files are not included directly in this GitHub repository.
+
+### Dataset Sources
+
+* **Application Data:**
+  https://www.kaggle.com/datasets/dssouvikganguly/application-datacsv
+
+* **Previous Application Data:**
+  https://www.kaggle.com/datasets/mishra5001/credit-card?select=previous_application.csv
+
+Download the required datasets from Kaggle and place the CSV files inside the `data/` folder before running the notebook.
+
 ## 🚀 How to Run
 
 1. Clone this repository.
-2. Open the `.ipynb` file in Jupyter Notebook or Google Colab.
-3. Install the required Python libraries.
-4. Run the notebook cells sequentially.
+2. Download the required datasets from the Kaggle links above.
+3. Place the CSV files inside the `data/` folder.
+4. Open the `.ipynb` file in Jupyter Notebook or Google Colab.
+5. Install the required Python libraries.
+6. Run the notebook cells sequentially.
 
 ## 👩‍💻 Author
 
 **Priyadarshani Dash**
-MCA | Data Science & AI Enthusiast
